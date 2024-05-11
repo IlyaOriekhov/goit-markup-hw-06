@@ -32,7 +32,7 @@
   <body>
     <header class="page-header">
       <!--NAVIGATION-->
-      <div class="container">
+      <div class="container header-container">
         <nav class="navigation">
           <a class="logo" href="./index.html"
             >Web<span class="accent">Studio</span></a
@@ -59,6 +59,12 @@
             </li>
           </ul>
         </address>
+
+        <button class="btn-burger" type="button">
+          <svg class="icon-burger" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -73,7 +79,7 @@
       </section>
 
       <!--SECTION 2-->
-      <section class="section-two">
+      <section class="section-two hidden">
         <div class="container">
           <h2 class="visually-hidden">Benefits</h2>
 
@@ -134,7 +140,7 @@
       </section>
 
       <!--SECTION 3-->
-      <section class="section-three">
+      <section class="section-three hidden">
         <div class="container">
           <h2 class="main-thrd">Our Team</h2>
 
@@ -371,7 +377,7 @@
       </section>
 
       <!--SECTION 4-->
-      <section class="section-four">
+      <section class="section-four hidden">
         <div class="container">
           <h2 class="main-frth">Our Portfolio</h2>
 
@@ -496,7 +502,7 @@
     </main>
 
     <!--FOOTER-->
-    <footer class="end-chapter">
+    <footer class="end-chapter hidden">
       <div class="container end-chapt-cont">
         <div class="cont-logo">
           <a class="logo" href="./index.html"
@@ -583,9 +589,9 @@
       </div>
     </footer>
 
-    <!--THIS. IS. MODAAAAL-->
+    <!-- THIS. IS. MODAAAAL -->
 
-    <div class="modal-overlay">
+    <div class="modal-overlay hidden">
       <div class="modal">
         <button class="btn-close" type="button">
           <svg class="btn-svg-close" width="8" height="8">
